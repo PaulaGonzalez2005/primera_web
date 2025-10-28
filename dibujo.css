@@ -1,0 +1,37 @@
+body {
+background-color: rgb(230, 239, 255);
+}
+
+#lienzo{
+
+    width: 600px;
+    height: 600px;
+    border: 3px black solid;
+    background-color: rgb(203, 148, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cara{
+    width: 60%;
+    height: 60%;
+    background-color: rgb(147, 66, 223);
+    border-radius: 50%;
+    position: relative;
+    
+}
+.ojo{
+   background-color: black;
+    width: 80px;
+    height: 80px; 
+    border-radius: 50%;
+    position: absolute;
+}
+#ojoIz{
+    left: 30%;
+    top: 30%;
+}
+#ojoDe{
+    right:30%;
+      top: 30%;
+}
