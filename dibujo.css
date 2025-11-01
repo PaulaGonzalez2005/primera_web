@@ -89,3 +89,75 @@ background-color: rgb(230, 239, 255);
 #ojo1{ left: 353px; top: 114px;}
 #ojo2{ left: 266px; top: 60px;}
 #ojo3{ left: 177px; top: 114px;}
+
+.pupilagrande{
+    width: 42px;
+    height: 42px;
+    background-color: rgb(66, 129, 36);
+    border-radius: 50%;
+   position: fixed;  
+}
+#grande1{ left: 184px; top: 120px;}
+#grande2{ left: 273px; top: 65px;}
+#grande3{ left: 360px; top: 120px;}
+
+.pupilamedio{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(168, 231, 138);
+    border-radius: 50%;
+   position: fixed;  
+}
+#medio1{ left: 190px; top: 125px;}
+#medio2{ left: 279px; top: 71px;}
+#medio3{ left: 366px; top: 125px;}
+
+.pupilapeque{
+    width: 18px;
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+   position: fixed;  
+}
+#peque1{ left: 196px; top: 131px;}
+#peque2{ left: 285px; top: 77px;}
+#peque3{ left: 372px; top: 131px;}
+
+.baseboca1{
+    width: 211px;
+    height: 143px;
+    background-color: rgb(79, 95, 121);
+    border-radius: 50%;
+   position: fixed;  
+   left: 189px; top: 250px;
+}
+
+.baselengua{
+    width: 180px;
+    height: 139px;
+    background-color: rgb(215, 109, 137);
+    border-radius: 50%;
+   position: fixed;  
+   left: 203px; top: 330px;
+}
+
+.baseboca2{
+    width: 175px;
+    height: 73px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+   position: fixed;  
+   left: 208px; top: 321px;
+}
+.narizbase{
+    
+    background-color: rgb(197, 211, 150);
+    border-radius: 50%;
+   position: fixed;  
+}
+#narizbase1{ width: 76px; height: 76px;left: 192px; top: 193px;}
+#narizbase2{ width: 76px; height: 76px;left: 316px; top: 193px;}
+#narizbase3{ width: 52px; height: 52px;left: 226px; top: 243px;}
+#narizbase4{ width: 52px; height: 52px;left: 306px; top: 243px;}
+#narizbase5{ width: 56px; height: 56px;left: 242px; top: 252px;}
+#narizbase6{ width: 56px; height: 56px;left: 286px; top: 252px;}
