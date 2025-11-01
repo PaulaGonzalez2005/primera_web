@@ -12,26 +12,80 @@ background-color: rgb(230, 239, 255);
     justify-content: center;
     align-items: center;
 }
-#cara{
-    width: 60%;
-    height: 60%;
-    background-color: rgb(147, 66, 223);
+.carainferior{
+    width: 217px;
+    height: 217px;
+    background-color: rgb(253, 220, 69);
     border-radius: 50%;
-    position: relative;
-    
+   position: fixed;  
 }
+#mejillaIz{ left: 105px; top: 106px;}
+#mejillaDe{ left: 273px;top: 106px;}
+
+.carasuperior{
+    width: 127px;
+    height: 127px;
+    background-color: rgb(253, 220, 69);
+    border-radius: 50%;
+   position: fixed;  
+}
+#ladoIz1{ left: 120px; top: 42px;}
+#ladoDe1{ left: 345px;top: 42px;}
+#ladoIz2{ left: 274px; top: 20px;}
+#ladoDe2{ left: 200px;top: 20px;}
+
+.cuerposuperior{
+    width: 217px;
+    height: 217px;
+    background-color: rgb(253, 220, 69);
+    border-radius: 50%;
+   position: fixed;  
+}
+#cuerpo1{ left: 83px; top: 297px;}
+#cuerpo2{ left: 283px; top: 297px;}
+
+.cuerpomedio{
+    width: 152px;
+    height: 152px;
+    background-color: rgb(253, 220, 69);
+    border-radius: 50%;
+   position: fixed;  
+}
+#cuerpo3{ left: 36px; top: 448px;}
+#cuerpo4{ left: 403px; top: 448px;}
+
+.cuerpoinferior{
+    width: 47px;
+    height: 47px;
+    background-color: rgb(253, 220, 69);
+    border-radius: 50%;
+   position: fixed;  
+}
+#cuerpo5{ left: 19px; top: 553px;}
+#cuerpo6{ left: 530px; top: 553px;}
+
+.ovaloojo{
+    width: 15px;
+    height: 8px;
+    background-color: rgb(207, 138, 157);
+    border-radius: 50%;
+   position: fixed;  
+}
+#ovalo1{ left: 170px; top: 131px;}
+#ovalo2{ left: 220px; top: 157px;}
+#ovalo3{ left: 258px; top: 78px;}
+#ovalo4{ left: 316px; top: 78px;}
+#ovalo5{ left: 351px; top: 157px;}
+#ovalo6{ left: 401px; top: 131px;}
+
+
 .ojo{
-   background-color: black;
-    width: 80px;
-    height: 80px; 
+    width: 57px;
+    height: 51px;
+    background-color: rgb(207, 138, 157);
     border-radius: 50%;
-    position: absolute;
+   position: fixed;  
 }
-#ojoIz{
-    left: 30%;
-    top: 30%;
-}
-#ojoDe{
-    right:30%;
-      top: 30%;
-}
+#ojo1{ left: 353px; top: 114px;}
+#ojo2{ left: 266px; top: 60px;}
+#ojo3{ left: 177px; top: 114px;}
