@@ -275,22 +275,22 @@ background-color: rgb(230, 239, 255);
 .bigotede {
   
   background: transparent;
- border-right: 2px solid rgb(0, 0, 0);    
-  border-top: 4px solid rgb(0, 0, 0);   
+ border-right: 1px solid rgb(0, 0, 0);    
+  border-top: 3px solid rgb(0, 0, 0);   
   border-radius: 0 40px 0 0;        
   position: fixed;  
 }
 #bigotede1{ width: 55px; height: 30px;left: 196px; top: 213px;}
 #bigotede2{ width: 45px; height: 30px;left: 198px; top: 225px;}
-#bigotede3{ width: 45px; height: 30px;left: 220px; top: 265px;}
+#bigotede3{ width: 30px; height: 36px;left: 225px; top: 255px;}
 
 .bigoteIz {
-  width: 20px;
-  height: 20px;
   background: transparent;
-  border-left: 4px solid rgb(0, 0, 0);     
-  border-top: 4px solid rgb(0, 0, 0);   
+  border-left: 1px solid rgb(0, 0, 0);     
+  border-top: 3px solid rgb(0, 0, 0);   
   border-radius: 40px 0 0 0;        
   position: fixed;  
 }
-#fosas1{ left: 267px; top: 265px;}
+#bigoteIz1{ width: 55px; height: 30px;left: 329px; top: 213px;}
+#bigoteIz2{ width: 45px; height: 30px;left: 331px; top: 225px;}
+#bigoteIz3{ width: 30px; height: 36px;left: 333px; top: 255px;}
