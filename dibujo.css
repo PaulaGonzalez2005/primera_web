@@ -161,6 +161,7 @@ background-color: rgb(230, 239, 255);
 #narizbase4{ width: 52px; height: 52px;left: 306px; top: 243px;}
 #narizbase5{ width: 56px; height: 56px;left: 242px; top: 252px;}
 #narizbase6{ width: 56px; height: 56px;left: 286px; top: 252px;}
+#narizbase7{ width: 50px; height: 50px;left: 330px; top: 210px;}
 
 .curva {
   width: 30px;
@@ -176,11 +177,22 @@ background-color: rgb(230, 239, 255);
   width: 20px;
   height: 20px;
   background: transparent;
- border-right: 4px solid white;    /* lado derecho */
-  border-bottom: 4px solid white;   /* parte inferior */
+ border-right: 4px solid white;    
+  border-bottom: 4px solid white;   
   border-radius: 0 0 40px 0;        
   position: fixed;  
   left: 395px; 
+  top: 277px;
+}
+.curvaIz {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-left: 4px solid white;     
+  border-bottom: 4px solid white;   
+  border-radius: 0 0 0 40px;        
+  position: fixed;  
+  left: 170px; 
   top: 277px;
 }
 .deliniado{
@@ -200,6 +212,85 @@ background-color: rgb(230, 239, 255);
 #deliniado7{ left: 137px; top: 200px;}
 #deliniado8{ left: 145px; top: 202px;}
 #deliniado9{ left: 161px; top: 238px;}
-#deliniado10{ left: 168px; top: 218px;}
+#deliniado10{ left: 173px; top: 236px;}
 #deliniado11{ left: 219px; top: 249px;}
 #deliniado12{ left: 238px; top: 264px;}
+
+#deliniado13{ left: 293px; top: 263px;}
+#deliniado14{ left: 312px; top: 248px;}
+#deliniado15{ left: 338px; top: 220px;}
+#deliniado16{ left: 371px; top: 215px;}
+#deliniado17{ left: 371px; top: 235px;}
+#deliniado18{ left: 382px; top: 197px;}
+
+ .dentroBoca{
+    width: 36px;
+    height: 34px;
+    background-color: rgb(209, 84, 108);
+    border-radius: 50%;
+   position: fixed;  
+}
+#dentroBoca1{ left: 146px; top: 204px;}
+#dentroBoca2{ left: 161px; top: 230px;}
+#dentroBoca3{ left: 178px; top: 247px;}
+#dentroBoca4{ left: 184px; top: 265px;}
+#dentroBoca5{ left: 372px; top: 255px;}
+#dentroBoca6{ left: 379px; top: 233px;}
+#dentroBoca7{ left: 393px; top: 209px;}
+
+ .narizcentro{
+    width: 22px;
+    height: 21px;
+    background-color: rgb(252, 158, 177);
+    border-radius: 50%;
+   position: fixed;  
+}
+#narizcentro1{ left: 259px; top: 258px;}
+#narizcentro2{ left: 267px; top: 261px;}
+#narizcentro3{ left: 267px; top: 276px;}
+#narizcentro4{ left: 274px; top: 274px;}
+#narizcentro5{ left: 289px; top: 274px;}
+#narizcentro6{ left: 296px; top: 276px;}
+#narizcentro7{ left: 296px; top: 261px;}
+#narizcentro8{ left: 304px; top: 258px;}
+
+ .fosas{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+   position: fixed;  
+}
+#fosas1{ left: 267px; top: 265px;}
+#fosas2{ left: 273px; top: 271px;}
+#fosas3{ left: 275px; top: 271px;}
+#fosas4{ left: 275px; top: 278px;}
+#fosas5{ left: 271px; top: 281px;}
+#fosas6{ left: 307px; top: 265px;}
+#fosas7{ left: 303px; top: 271px;}
+#fosas8{ left: 298px; top: 271px;}
+#fosas9{ left: 298px; top: 278px;}
+#fosas10{ left: 304px; top: 281px;}
+
+.bigotede {
+  
+  background: transparent;
+ border-right: 2px solid rgb(0, 0, 0);    
+  border-top: 4px solid rgb(0, 0, 0);   
+  border-radius: 0 40px 0 0;        
+  position: fixed;  
+}
+#bigotede1{ width: 55px; height: 30px;left: 196px; top: 213px;}
+#bigotede2{ width: 45px; height: 30px;left: 198px; top: 225px;}
+#bigotede3{ width: 45px; height: 30px;left: 220px; top: 265px;}
+
+.bigoteIz {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+  border-left: 4px solid rgb(0, 0, 0);     
+  border-top: 4px solid rgb(0, 0, 0);   
+  border-radius: 40px 0 0 0;        
+  position: fixed;  
+}
+#fosas1{ left: 267px; top: 265px;}
