@@ -65,6 +65,13 @@ background-color: rgb(114, 114, 114);
 #cuerpo5{ left: 19px; top: 553px;}
 #cuerpo6{ left: 530px; top: 553px;}
 
+.basecuerpo{
+    background-color:rgb(253, 220, 69);
+   position: fixed;  
+}
+#cuadrado1{ width: 559px; height: 28px;left: 18px; top: 572px;}
+#cuadrado2{ width: 363px; height: 128px;left: 99px; top: 444px;}
+
 .ovaloojo{
     width: 15px;
     height: 8px;
@@ -287,6 +294,32 @@ background-color: rgb(114, 114, 114);
 #bigotede2{ width: 45px; height: 30px;left: 198px; top: 225px;}
 #bigotede3{ width: 30px; height: 36px;left: 225px; top: 255px;}
 
+
+.bigotegra {
+  
+  background: transparent;
+ border-right: 2px solid rgb(0, 0, 0);    
+  border-top: 8px solid rgb(0, 0, 0);   
+  border-radius: 0 40px 0 0;        
+  position: fixed;  
+}
+#bigotede4{ width: 20px; height: 30px;left: 270px; top: 125px;}
+#bigotede5{ width: 30px; height: 36px;left: 260px; top: 150px;}
+#bigotede6{ width: 40px; height: 42px;left: 250px; top: 175px;}
+
+.bigotegro {
+  background: transparent;
+  border-left: 2px solid rgb(0, 0, 0);    
+  border-top: 8px solid rgb(0, 0, 0);   
+  border-radius: 40px 0 0 0;        
+  position: fixed;  
+}
+
+#bigotegro4{ width: 20px; height: 30px; left: 290px; top: 125px;}
+#bigotegro5{ width: 30px; height: 36px; left: 290px; top: 150px;}
+#bigotegro6{ width: 40px; height: 42px; left: 290px; top: 175px;}
+
+
 .bigoteIz {
   background: transparent;
   border-left: 1px solid rgb(0, 0, 0);     
@@ -347,6 +380,23 @@ background-color: rgb(114, 114, 114);
 #narizlineas4{ left: 292px; top: 235px;}
 #narizlineas5{ left: 292px; top: 240px;}
 #narizlineas6{ left: 292px; top: 230px;}
+
+
+#narizlineas7{ left: 240px; top: 37px;}
+#narizlineas8{ left: 240px; top: 32px;}
+#narizlineas9{ left: 240px; top: 27px;}
+#narizlineas10{ left: 262px; top: 32px;}
+#narizlineas11{ left: 262px; top: 37px;}
+#narizlineas12{ left: 262px; top: 27px;}
+
+#narizlineas18{ left: 342px; top: 37px;}
+#narizlineas13{ left: 320px; top: 32px;}
+#narizlineas14{ left: 320px; top: 27px;}
+#narizlineas15{ left: 342px; top: 32px;}
+#narizlineas16{ left: 320px; top: 37px;}
+#narizlineas17{ left: 342px; top: 27px;}
+
+
 
 .pelo {
     width: 600px;             
@@ -409,3 +459,36 @@ background-color: rgb(114, 114, 114);
 #sombraroja{ background-color: rgb(215, 109, 137);clip-path:polygon(127px 353px,211px 380px,162px 385px,119px 383px,155px 397px,204px 397px, 123px 419px, 211px 413px,142px 453px,182px 448px,219px 430px,177px 466px,200px 461px,229px 437px,218px 474px,206px 494px,214px 517px,219px 489px,234px 480px,242px 447px,259px 450px,256px 485px,240px 519px,255px 530px,254px 506px,264px 495px,281px 458px,204px 358px);
 }
 #sombraroja1{background-color:rgb(215,109,137);clip-path:polygon(442px 353px,358px 380px,407px 385px,450px 383px,414px 397px,365px 397px,446px 419px,358px 413px,427px 453px,387px 448px,350px 430px,392px 466px,369px 461px,340px 437px,351px 474px,363px 494px,355px 517px,350px 489px,335px 480px,327px 447px,310px 450px,313px 485px,329px 519px,314px 530px,315px 506px,305px 495px,288px 458px,365px 358px);}
+
+.caralineas {
+  width: 44px;
+  height: 14px;
+  border-top: 5px solid black;
+  border-radius: 34px 34px 0 0; 
+  background: transparent;
+  position: fixed;
+ 
+}
+#caralineas1{ left: 136px; top: 165px;}
+#caralineas2{ left: 176px; top: 170px;}
+#caralineas3{ left: 130px; top: 178px;}
+#caralineas4{ left: 170px; top: 183px;}
+
+#caralineas5{ left: 403px; top: 160px;}
+#caralineas6{ left: 364px; top: 170px;}
+#caralineas7{ left: 413px; top: 178px;}
+#caralineas8{ left: 370px; top: 183px;}
+
+.cejas {
+  width: 74px;
+  height: 24px;
+  border-top: 8px solid black;
+  border-radius: 44px 44px 0 0; 
+  background: transparent;
+  position: fixed;
+ 
+}
+#cejas1{ left: 155px; top: 55px;}
+#cejas2{ left: 355px; top: 55px;}
+#cejas3{ left: 155px; top: 78px;}
+#cejas4{ left: 355px; top: 78px;}
