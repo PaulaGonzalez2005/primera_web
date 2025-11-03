@@ -1,5 +1,5 @@
 body {
-background-color: rgb(230, 239, 255);
+background-color: rgb(114, 114, 114);
 }
 
 #lienzo{
@@ -7,7 +7,7 @@ background-color: rgb(230, 239, 255);
     width: 600px;
     height: 600px;
     border: 3px black solid;
-    background-color: rgb(158, 158, 158);
+    background-color: rgb(178, 186, 199);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,6 +33,7 @@ background-color: rgb(230, 239, 255);
 #ladoDe1{ left: 345px;top: 42px;}
 #ladoIz2{ left: 274px; top: 20px;}
 #ladoDe2{ left: 200px;top: 20px;}
+
 
 .cuerposuperior{
     width: 217px;
@@ -131,6 +132,8 @@ background-color: rgb(230, 239, 255);
    position: fixed;  
    left: 189px; top: 250px;
 }
+#baseboca11{ width: 100px; height: 50px;background-color: rgb(253, 220, 69);left: 255px; top: 245px;}
+ 
 
 .baselengua{
     width: 180px;
@@ -294,3 +297,65 @@ background-color: rgb(230, 239, 255);
 #bigoteIz1{ width: 55px; height: 30px;left: 329px; top: 213px;}
 #bigoteIz2{ width: 45px; height: 30px;left: 331px; top: 225px;}
 #bigoteIz3{ width: 30px; height: 36px;left: 333px; top: 255px;}
+
+
+.diente {
+    width: 600px;             
+  height: 600px;
+  background: rgb(231, 231, 231);
+     
+  position: fixed;  
+}
+#diente1{ clip-path: polygon(147px 192px, 161px 194px, 152px 214px);}
+#diente2{ clip-path: polygon(144px 223px, 151px 235px, 160px 219px);}
+
+#diente3{ clip-path: polygon(170px 210px, 165px 230px, 177px 222px);}
+#diente4{ clip-path: polygon(156px 254px, 173px 245px, 166px 265px);}
+#diente5{ clip-path: polygon(183px 227px, 194px 238px, 189px 255px);}
+#diente6{ clip-path: polygon(208px 260px, 200px 267px, 209px 271px);}
+#diente7{ clip-path: polygon(212px 277px, 223px 286px, 216px 297px);}
+#diente8{ clip-path: polygon(229px 288px, 240px 300px, 228px 313px);}
+#diente9{ clip-path: polygon(243px 302px, 256px 304px, 249px 322px);}
+#diente10{ clip-path: polygon(261px 303px, 269px 300px, 264px 309px);}
+
+#diente11{ clip-path: polygon(285px 290px, 290px 295px, 289px 302px);}
+#diente12{ clip-path: polygon(295px 298px, 303px 301px, 300px 307px);}
+#diente13{ clip-path: polygon(308px 302px, 321px 300px, 315px 320px);}
+#diente14{ clip-path: polygon(324px 298px, 335px 285px, 336px 311px);}
+#diente15{ clip-path: polygon(341px 284px, 352px 274px, 348px 295px);}
+#diente16{ clip-path: polygon(356px 257px, 355px 269px, 364px 265px);}
+#diente17{ clip-path: polygon(366px 238px, 375px 223px, 371px 255px);}
+#diente18{ clip-path: polygon(378px 217px, 385px 205px, 389px 231px);}
+#diente19{ clip-path: polygon(389px 199px, 403px 197px, 398px 215px);}
+#diente20{ clip-path: polygon(408px 213px, 417px 224px, 407px 231px);}
+#diente21{ clip-path: polygon(395px 230px, 405px 244px, 396px 254px);}
+#diente22{ clip-path: polygon(384px 254px, 392px 277px, 379px 279px);}
+#diente23{ clip-path: polygon(272px 297px, 278px 292px, 274px 304px);}
+
+.narizlineas {
+  width: 22px;
+  height: 22px;
+  border-top: 2px solid black;
+  border-radius: 22px 22px 0 0; 
+  background: transparent;
+  position: fixed;
+ 
+}
+#narizlineas1{ left: 270px; top: 240px;}
+#narizlineas2{ left: 270px; top: 235px;}
+#narizlineas3{ left: 270px; top: 230px;}
+#narizlineas4{ left: 292px; top: 235px;}
+#narizlineas5{ left: 292px; top: 240px;}
+#narizlineas6{ left: 292px; top: 230px;}
+
+.pelo {
+    width: 600px;             
+  height: 600px;
+  background: rgb(130, 155, 89);
+     
+  position: fixed;  
+}
+#pelo1{ clip-path: polygon(117px 135px, 96px 173px, 122px 174px, 99px 192px, 119px 195px, 101px 211px, 122px 206px, 108px 224px, 131px 217px, 118px 238px, 142px 236px, 135px 255px, 154px 256px, 147px 273px, 160px 278px, 156px 291px, 172px 287px, 185px 291px, 181px 317px, 141px 335px, 168px 303px, 118px 325px, 135px 290px, 98px 308px, 121px 280px, 80px 284px, 105px 257px, 59px 271px, 101px 242px, 43px 250px, 92px 226px, 45px 227px, 94px 206px, 34px 215px, 97px 181px, 42px 198px);
+ }
+ #pelo2{clip-path: polygon(453px 135px, 474px 173px, 448px 174px, 471px 192px, 451px 195px, 469px 211px, 448px 206px, 462px 224px, 439px 217px, 452px 238px, 428px 236px, 435px 255px, 416px 256px, 423px 273px, 410px 278px, 414px 291px, 398px 287px, 385px 291px, 389px 317px, 429px 335px, 402px 303px, 452px 325px, 435px 290px, 472px 308px, 449px 280px, 490px 284px, 465px 257px, 511px 271px, 469px 242px, 527px 250px, 478px 226px, 525px 227px, 476px 206px, 536px 215px, 473px 181px, 528px 198px);
+ }
