@@ -359,3 +359,37 @@ background-color: rgb(114, 114, 114);
  }
  #pelo2{clip-path: polygon(453px 135px, 474px 173px, 448px 174px, 471px 192px, 451px 195px, 469px 211px, 448px 206px, 462px 224px, 439px 217px, 452px 238px, 428px 236px, 435px 255px, 416px 256px, 423px 273px, 410px 278px, 414px 291px, 398px 287px, 385px 291px, 389px 317px, 429px 335px, 402px 303px, 452px 325px, 435px 290px, 472px 308px, 449px 280px, 490px 284px, 465px 257px, 511px 271px, 469px 242px, 527px 250px, 478px 226px, 525px 227px, 476px 206px, 536px 215px, 473px 181px, 528px 198px);
  }
+
+ .orejas {
+    width: 600px;             
+  height: 600px;
+  position: fixed;  
+}
+
+#orejas1{ background: rgb(0, 0, 0); clip-path: polygon(61px 106px, 78px 94px, 87px 100px, 88px 108px, 100px 115px, 106px 106px, 136px 96px, 119px 150px);
+}
+#orejas2{ background: rgb(0, 0, 0); clip-path: polygon(517px 106px, 500px 94px, 491px 100px, 490px 108px, 478px 115px, 472px 106px, 442px 96px, 459px 150px);
+}
+#orejas3{ background: rgb(255, 255, 255); clip-path: polygon(56px 106px, 71px 107px, 91px 125px, 124px 112px, 124px 177px, 87px 162px, 82px 149px, 54px 136px, 49px 126px, 48px 111px);
+}
+#orejas4{ background: rgb(255, 255, 255); clip-path: polygon(521px 106px, 506px 107px, 486px 125px, 453px 112px, 453px 177px, 490px 162px, 495px 149px, 523px 136px, 528px 126px, 529px 111px);
+}
+#orejas5{ background: rgb(241, 157, 189); clip-path: polygon(58px 114px, 72px 120px, 72px 126px, 79px 130px, 91px 132px, 93px 140px, 111px 143px, 125px 135px, 119px 167px, 91px 154px, 88px 145px, 70px 139px, 67px 133px, 58px 125px);
+}
+#orejas6{ background: rgb(241, 157, 189); clip-path: polygon(518px 114px, 504px 120px, 504px 126px, 497px 130px, 485px 132px, 483px 140px, 465px 143px, 451px 135px, 457px 167px, 485px 154px, 488px 145px, 506px 139px, 509px 133px, 518px 125px);
+}
+
+.baseorejas{
+    width: 41px;
+    height: 41px;
+    background-color: rgb(253, 220, 69);
+    border-radius: 50%;
+   position: fixed;  
+}
+#baseorejas1{ left: 102px; top: 78px;}
+#baseorejas2{ left: 446px;top: 72px;}
+#baseorejas3{ left: 290px;top: 115px;}
+#baseorejas4{ left: 73px;top: 87px;}
+#baseorejas5{ left: 94px;top: 82px;}
+#baseorejas6{ left: 445px;top: 76px;}
+#baseorejas7{ left: 467px;top: 82px;}
