@@ -393,3 +393,19 @@ background-color: rgb(114, 114, 114);
 #baseorejas5{ left: 94px;top: 82px;}
 #baseorejas6{ left: 445px;top: 76px;}
 #baseorejas7{ left: 467px;top: 82px;}
+
+.sombrablanca {
+    width: 600px;             
+  height: 600px;
+  background: rgb(255, 255, 255);  
+  position: fixed;  
+}
+#sombrablanca1{ clip-path: polygon(123px 109px, 153px 118px, 131px 89px, 166px 113px, 139px 77px, 182px 108px, 159px 71px, 198px 111px, 184px 75px, 217px 120px, 214px 83px, 231px 123px, 234px 125px, 242px 99px, 242px 128px, 229px 145px, 234px 157px, 222px 165px, 153px 132px);
+}
+#sombrablanca2{clip-path:polygon(444px 109px,414px 118px,436px 89px,401px 113px,428px 77px,385px 108px,408px 71px,369px 111px,383px 75px,350px 120px,353px 83px,336px 123px,333px 125px,325px 99px,325px 128px,338px 145px,333px 157px,345px 165px,414px 132px);}
+
+#sombrablanca3{ clip-path: polygon(217px 44px, 230px 61px, 238px 66px, 232px 35px, 240px 55px, 256px 67px, 253px 30px, 268px 57px, 277px 28px, 285px 51px, 290px 29px, 298px 50px, 316px 24px, 308px 58px, 330px 43px, 316px 64px, 325px 62px, 346px 43px, 334px 68px, 321px 75px, 312px 88px, 251px 88px, 226px 72px);
+}
+#sombraroja{ background-color: rgb(215, 109, 137);clip-path:polygon(127px 353px,211px 380px,162px 385px,119px 383px,155px 397px,204px 397px, 123px 419px, 211px 413px,142px 453px,182px 448px,219px 430px,177px 466px,200px 461px,229px 437px,218px 474px,206px 494px,214px 517px,219px 489px,234px 480px,242px 447px,259px 450px,256px 485px,240px 519px,255px 530px,254px 506px,264px 495px,281px 458px,204px 358px);
+}
+#sombraroja1{background-color:rgb(215,109,137);clip-path:polygon(442px 353px,358px 380px,407px 385px,450px 383px,414px 397px,365px 397px,446px 419px,358px 413px,427px 453px,387px 448px,350px 430px,392px 466px,369px 461px,340px 437px,351px 474px,363px 494px,355px 517px,350px 489px,335px 480px,327px 447px,310px 450px,313px 485px,329px 519px,314px 530px,315px 506px,305px 495px,288px 458px,365px 358px);}
