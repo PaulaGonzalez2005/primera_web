@@ -1,7 +1,18 @@
+@keyframes colorearLengua{
+  0% {background-color: rgb(255, 0, 0);}
+    25% {background-color: firebrick;}
+      50% {background-color: rgb(252, 49, 93);}
+        75% {background-color: rgb(252, 176, 176);}
+}
+
 body {
 background-color: rgb(114, 114, 114);
 }
-
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px ;
+    color: white;
+}
 #lienzo{
 
     width: 600px;
@@ -93,10 +104,20 @@ background-color: rgb(114, 114, 114);
     background-color: rgb(207, 138, 157);
     border-radius: 50%;
    position: fixed;  
+   
+}
+.ojo:hover{
+  background-color: rgb(185, 53, 90);
+  width: 67px;
+    height: 61px;
 }
 #ojo1{ left: 353px; top: 114px;}
 #ojo2{ left: 266px; top: 60px;}
 #ojo3{ left: 177px; top: 114px;}
+
+#ojo1:hover{ left: 348px; top: 109px;}
+#ojo2:hover{ left: 261px; top: 55px;}
+#ojo3:hover{ left: 172px; top: 109px;}
 
 .pupilagrande{
     width: 42px;
@@ -149,6 +170,9 @@ background-color: rgb(114, 114, 114);
     border-radius: 50%;
    position: fixed;  
    left: 203px; top: 330px;
+   animation-name: colorearLengua;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
 }
 
 .baseboca2{
@@ -457,8 +481,15 @@ background-color: rgb(114, 114, 114);
 #sombrablanca3{ clip-path: polygon(217px 44px, 230px 61px, 238px 66px, 232px 35px, 240px 55px, 256px 67px, 253px 30px, 268px 57px, 277px 28px, 285px 51px, 290px 29px, 298px 50px, 316px 24px, 308px 58px, 330px 43px, 316px 64px, 325px 62px, 346px 43px, 334px 68px, 321px 75px, 312px 88px, 251px 88px, 226px 72px);
 }
 #sombraroja{ background-color: rgb(215, 109, 137);clip-path:polygon(127px 353px,211px 380px,162px 385px,119px 383px,155px 397px,204px 397px, 123px 419px, 211px 413px,142px 453px,182px 448px,219px 430px,177px 466px,200px 461px,229px 437px,218px 474px,206px 494px,214px 517px,219px 489px,234px 480px,242px 447px,259px 450px,256px 485px,240px 519px,255px 530px,254px 506px,264px 495px,281px 458px,204px 358px);
+ animation-name: colorearLengua;
+   animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+#sombraroja1{background-color:rgb(215,109,137);clip-path:polygon(442px 353px,358px 380px,407px 385px,450px 383px,414px 397px,365px 397px,446px 419px,358px 413px,427px 453px,387px 448px,350px 430px,392px 466px,369px 461px,340px 437px,351px 474px,363px 494px,355px 517px,350px 489px,335px 480px,327px 447px,310px 450px,313px 485px,329px 519px,314px 530px,315px 506px,305px 495px,288px 458px,365px 358px);
+ animation-name: colorearLengua;
+   animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
-#sombraroja1{background-color:rgb(215,109,137);clip-path:polygon(442px 353px,358px 380px,407px 385px,450px 383px,414px 397px,365px 397px,446px 419px,358px 413px,427px 453px,387px 448px,350px 430px,392px 466px,369px 461px,340px 437px,351px 474px,363px 494px,355px 517px,350px 489px,335px 480px,327px 447px,310px 450px,313px 485px,329px 519px,314px 530px,315px 506px,305px 495px,288px 458px,365px 358px);}
 
 .caralineas {
   width: 44px;
